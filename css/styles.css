@@ -1,0 +1,151 @@
+/*  
+dodgerblue #1E90FF
+mediumspringgreen #00FA9A
+dimgrey dimgrey #696969
+#484848
+*/
+
+/* Global Styles
+-------------------------------- */
+
+img {
+  width: 300px;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  color: #484848;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+h1 {
+  font-size: 100px;
+  line-height: 1;
+}
+
+h2 {
+  font-size: 45px;
+}
+
+h1,
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400px;
+  margin: 0;
+}
+
+/* Profile
+-------------------------------- */
+header {
+  background: #61d095;
+  text-align: center;
+}
+.nav {
+  position: fixed;
+  background: #484848;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  transform: translateX(0%);
+  transition: ease-in-out;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav li a:hover {
+  color: #61d095;
+  font-weight: bolder;
+  font-size: 30px;
+  transition: all 500ms ease-in-out;
+}
+
+.content-wrap {
+  width: 800px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+/* Projects
+-------------------------------- */
+.projects {
+  background: #484848;
+  color: white;
+}
+.project-float {
+  overflow: hidden;
+  border-bottom: 1px solid #61d095;
+  padding-bottom: 25px;
+  padding-top: 15px;
+}
+
+.project-float img {
+  float: left;
+  margin-right: 20px;
+}
+.project-float h3 {
+  margin-top: 0;
+}
+
+/* Work Experience
+-------------------------------- */
+.work-experience {
+  background: #484848;
+  color: white;
+}
+
+.job-item {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 20px;
+}
+
+.education {
+  background: #484848;
+  color: white;
+}
+
+footer {
+  background: #61d095;
+  text-align: center;
+}
+
+.contact-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-list a {
+  padding: 15px;
+  display: inline-block;
+  font-family: "Times New Roman", Times, serif;
+}
