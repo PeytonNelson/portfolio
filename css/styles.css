@@ -60,7 +60,7 @@ header {
   left: 0;
   right: 0;
   z-index: 100;
-  transform: translateX(0%);
+  transform: translateX(100%);
   transition: ease-in-out;
 }
 
@@ -132,6 +132,8 @@ nav li a:hover {
   color: white;
 }
 
+/* ------ Footer ------ */
+
 footer {
   background: #61d095;
   text-align: center;
@@ -143,9 +145,16 @@ footer {
   display: flex;
   justify-content: center;
 }
+.contact-list i {
+  color: #606060;
+}
+
+.contact-list i:hover {
+  color: #484848;
+}
 
 .contact-list a {
-  padding: 15px;
+  padding: 20px;
   display: inline-block;
   font-family: "Times New Roman", Times, serif;
 }
