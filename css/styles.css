@@ -68,7 +68,6 @@ nav li a {
 }
 
 nav li a:hover {
-  color: #61d095;
   font-weight: bolder;
   font-size: 19px;
   transition: all 500ms ease;
