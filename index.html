@@ -14,7 +14,7 @@
   <body>
     <main>
       <!-- ***********************  ABOUT / PROFILE  *********************** -->
-      <header>
+      <header class="header-home">
 
             <!-- ********************* NAV BAR ******************** -->
       <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-custom">
@@ -26,8 +26,7 @@
                <div class="collapse navbar-collapse" id="navbarNav">
                    <ul class="navbar-nav">
                      <li><a href="#projects" class="nav-link">Projects</a></li>
-                     <li><a href="" class="nav-link">Resume</a></li>
-                     <li><a href="" class="nav-link">Projects</a></li>
+                     <li><a href="resume.html" class="nav-link">Resume</a></li>
                      <li><a href="#contact-list" class="nav-link">Contact Me</a></li>
                    </ul>
                  </div>
@@ -55,16 +54,16 @@
 
       <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
       <section class="projects" id="projects">
-        <div class="content-wrap container-fluid">
+        <div class="  container">
 
             <h2>Projects</h2>
 
             <!-- Copy the whole <section> block to add more projects. -->
             <section class="project-float">
               <img src="images\project-courses.jpg" alt="LinkedIn Learning Course">
-              <h3>Flappy Bird</h3>
-              <p>Summary or description of the project and/or your role in it. Add as many paragraphs as you need.</p>
-              <a href="#" target="_blank">View project / case study</a>
+              <h3>Portfolio</h3>
+              <p>My first real project learning to create a portfolio website and to learn to use HTML and CSS, along with incorporating bootstrap.</p>
+              <a href="https://github.com/PeytonNelson/portfolio/tree/master" target="_blank">View project</a>
           
             </section>
         <!-- End of Project block. -->
@@ -73,23 +72,31 @@
 
       <!-- ***********************  WORK EXPERIENCE  *********************** -->
       <section class="work-experience">
-        <div class="content-wrap container-fluid">
+        <div class=" container">
           <h2>Work Experience</h2>
           <!-- Copy this whole <section> block to add more jobs. -->
+            <section class="job-item">
+              <div class="job-details">
+                <h3>ITS Student Assistant</h3>
+                <p>Tennessee Technological University</p>
+                <p>Jan 2021-Present</p>
+              </div>
+              <p>Provided professional assistance to students at the IT HelpDesk by answering
+                 any questions related to computer or printer troubleshooting. Other tasks included checking out 
+                 laptops, thoroughly cleaning laptops and keeping them charged, and working on printer problems.</p>
+             
+            </section>
+
           <section class="job-item">
             <div class="job-details">
               <h3>Warehouse Associate</h3>
               <p>Amazon</p>
-              <p>Date at job</p>
+              <p>May 2020 - August 2020</p>
             </div>
-            <p>Job summary goes here. Add as many paragraphs as you need.</p>
-            <p>Optional list:</p>
-            <ul>
-              <li>Delete this list if you don't need it.</li>
-              <li>Created...</li>
-              <li>Lead...</li>
-              <li>Responsible for...</li>
-            </ul>
+            <p>Scan labels on packages from conveyor belts, checked for damages, and
+              loaded them onto matching numbered pallets and wrapped the pallets to
+              be eventually transported</p>
+           
           </section>
         <!-- End of Job Section. -->
 
@@ -97,31 +104,25 @@
           <section class="job-item">
             <div class="job-details">
               <h3>Sales Associate Hardware/Tools</h3>
-              <p>Company Name</p>
-              <p>Date at job</p>
+              <p>Lowe's</p>
+              <p>Dec 2018 - Jun 2019</p>
             </div>
-          <p>Job summary goes here. Add as many paragraphs as you need.</p>
-          <p>Optional list:</p>
-          <ul>
-            <li>Delete this list if you don't need it.</li>
-            <li>Created...</li>
-            <li>Lead...</li>
-            <li>Responsible for...</li>
-          </ul>
+          <p>Provide great customer service by assisting customers in product selection,
+            directing them to product locations, and cutting glass and keys for them
+            while doing other tasks such as stocking, down-stocking, printing labels, and
+            making sure the tools/hardware department is clean.</p>
+          
         </div>
         </section>
       </section>
 
       <!-- ******************  EDUCATION  ****************** -->
       <section class="education">
-        <div class="content-wrap">
+        <div class="container">
           <h2>Education</h2>
-
-      
-          <section>
+          <section class="college">
             <h3>Tennessee Technological University</h3>
             <p>Computer Science BS (2018-2022)</p>
-            <p>Summary or accomplishments.</p>
           </section>
         </div>
       </section>
@@ -132,7 +133,7 @@
       
           <h2>Contact Me!</h2>
 
-          <!-- Social media and contact links. Add or remove any networks. -->
+          <!-- Social media and contact links. Logos with FontAwesome -->
           <ul class="contact-list">
             <li><a href="mailto:peytonnelson3@gmail.com"><i class="fas fa-envelope fa-2x"></i></a></li>
             <li><a href="https://github.com/PeytonNelson"><i class="fab fa-github fa-2x"></i></a></li>

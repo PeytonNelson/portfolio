@@ -48,7 +48,7 @@ h2 {
 
 /* Profile
 -------------------------------- */
-header {
+.header-home {
   background: #61d095;
   text-align: center;
   padding: 40px;
@@ -76,6 +76,10 @@ nav li a:hover {
 .content-wrap {
   width: 800px;
   margin: 0 auto;
+  padding: 60px 0;
+}
+
+.container {
   padding: 60px 0;
 }
 
@@ -109,13 +113,18 @@ nav li a:hover {
 
 .job-item {
   display: grid;
-  grid-template-columns: 1fr 2fr;
-  column-gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 25px;
+  margin: 22px;
 }
 
 .education {
   background: #484848;
   color: white;
+}
+
+.college {
+  margin: 15px;
 }
 
 /* ------ Footer ------ */
@@ -146,4 +155,8 @@ footer {
   padding: 20px;
   display: inline-block;
   font-family: "Times New Roman", Times, serif;
+}
+
+.resume-background {
+  background: #484848;
 }
