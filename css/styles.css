@@ -160,3 +160,9 @@ footer {
 .resume-background {
   background: #484848;
 }
+
+.resume {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
