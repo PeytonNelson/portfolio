@@ -1,4 +1,4 @@
-
+import Typed from 'js/typed.js';
 
 var strPhrases = {
     strings: ["Software Engineer", "Developer", "Problem Solver"],
