@@ -1,4 +1,4 @@
-import Typed from 'typed.js';
+import Typed from 'typed.min.js';
 
 var strPhrases = {
     strings: ['Software Engineer', 'Developer', 'Problem Solver'],
