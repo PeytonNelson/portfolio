@@ -5,4 +5,4 @@ var strPhrases = {
     typeSpeed: 40
   };
   
-  var typed = new Typed('#typedPhrases', strPhrases);
+  var typed = new Typed('.titlePhrases', strPhrases);
