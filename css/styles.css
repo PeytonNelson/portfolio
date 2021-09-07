@@ -27,7 +27,7 @@ body {
   color: whitesmoke;
   margin: 0;
   padding: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -132,9 +132,10 @@ nav li a:hover::before {
 /* Projects
 -------------------------------- */
 .projects {
-  background: #484848;
-  color: white;
+  background: whitesmoke;
+  color: hsl(0, 0%, 28%);
 }
+
 .project-float {
   overflow: hidden;
   border-bottom: 1px solid #61d095;
@@ -153,20 +154,31 @@ nav li a:hover::before {
 /* Work Experience
 -------------------------------- */
 .work-experience {
-  background: #484848;
-  color: white;
+  background: whitesmoke;
+  color: #484848;
+}
+
+#workExperienceJobs {
+  border-radius: 30px;
+  padding: px 1px;
+  border: 2px double transparent;
+  background-image: linear-gradient(whitesmoke, whitesmoke),
+    radial-gradient(circle at top left, #1fd1f9, #b621fe);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
 }
 
 .job-item {
   display: grid;
+  background-color: whitesmoke;
   grid-template-columns: 1fr 1fr;
   column-gap: 25px;
   margin: 22px;
 }
 
 .education {
-  background: #484848;
-  color: white;
+  background: whitesmoke;
+  color: #484848;
 }
 
 .college {
