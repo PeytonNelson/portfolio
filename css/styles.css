@@ -188,7 +188,7 @@ nav li a:hover::before {
 /* ------ Footer ------ */
 
 footer {
-  background: #61d095;
+  background: whitesmoke;
   text-align: center;
   padding: 20px;
   margin: 0px;
@@ -206,7 +206,16 @@ footer {
 }
 
 .contact-list i:hover {
-  color: #484848;
+  /* color: linear-gradient(315deg, #1fd1f9 26%, #b621fe 74%); */
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    from(#1fd1f9),
+    to(#b621fe)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .contact-list a {
